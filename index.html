@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <style>
+      	body{
+      		font-family: Rockwell;
+      		}
+      	kbd,p{
+      		font-size: 50px;
+
+      		}
+      	.GIF{
+      		height: 150px;
+      		width: 140px;
+      	}
+      	a{
+      		margin-left: 20px;
+      		margin-right: 20px;
+      	}
+        .pacifico-regular {
+          font-family: "Pacifico", serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+
+        h2 {
+            font-family: "Lilita One", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="text-light" style="background-color: black;">
+<br><br>
+    
+<div class="container">
+
+    <center>
+    <img src="chikawa.gif" style="height: 300px; width: 500px; border: 10px solid orange;" class="GIF">
+    <br><br>
+
+    <div class="col-md-12">
+        <script>
+        var php = 100; //given value in peso
+      
+
+        document.write("<h2>Click the buttons below to convert </h2>" + "<kbd>" + 100 + "</kbd>" + "<h2>pesos to other currencies</h2>"); 
+
+        </script>
+    </div>
+    </center>
+
+
+    <br>
+
+    <center>     
+    <div class="col-md-12">
+        <p id="display"></p>
+        <br>
+        <button type="button" class="btn" onclick="var php = 100; var $dollar=58.66; document.getElementById('display').innerHTML= '<kbd>' + php/$dollar + '</kbd>';">Dollar</button>
+         <button type="button" class="btn" onclick="var php = 100; var yen=0.37; document.getElementById('display').innerHTML= '<kbd>' + php/yen + '</kbd>';">Yen</button>
+
+    </div>
+    </center>
+</div>
+
+    <br>
+
+    <center>
+    <div class="col-md-12">
+        <a href=""><button style="background-color: pink; border: 5px solid orange; color: #36211a;" class="btn btn-success btn-lg">Refresh</button></a>
+
+   	</div>
+   </center>
+
+   <img src="chi.png" style="height: 150px; width: 150px; position: absolute; top: 240px; left: 360px;" class="responsive" >
+
+   <img src="omg.png" style="height: 150px; width: 150px; position: absolute; top: 210px; left: 944px; z-index: 2;" class="responsive">
+
+    <img src="omgd.webp" style="height: 80px; width: 80px; position: absolute; top: 150px; left: 420px; z-index: 1;" class="responsive">
+
+    <img src="omgd.webp" style="height: 80px; width: 80px; position: absolute; top: 70px; left: 420px; z-index: 1;" class="responsive">
+
+</body>
+</html>
